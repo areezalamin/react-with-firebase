@@ -1,0 +1,43 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+  }
+  nav a{
+    text-decoration: none;
+  }
+
+  ul {
+    display: flex;
+    list-style: none;
+  }
+
+  .Header {
+    font-size: 40px;
+  }
+  .logOut {
+    display: flex;
+  }
+
+  /* .active-link {
+    color: blue;
+    font-weight: bold;
+  } */
+  
+  
+  li {
+    margin: 0 10px;
+  }
+  
+  @media (max-width: 600px) {
+    nav {
+      flex-direction: column;
+      align-items: center;
+    }
+    ul {
+      flex-direction: column;
+    }
+    li {
+      margin: 10px 0;
+    }
+  }
+  
